@@ -8,16 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Laila|Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-      <header>
-          <div class="header-left">
-              <a href="login.html" class="login">Log In/Sign Up</a>
-          </div>
-          <div class="header-right">
-              <script async src="https://cse.google.com/cse.js?cx=011413938452584239455:itrb7gdw3n4" aria-label="Search"></script>
+        <header>
+                <div class="header-left">
+                    <a href="#" class="login" alt="log in">Log In/Sign Up</a>
+                </div>
+                <div class="header-right">
+                      <script async src="https://cse.google.com/cse.js?cx=011413938452584239455:itrb7gdw3n4" aria-label="Search"></script>
                 <div class="gcse-search"></div>
-              <a href="#"><i class="fas fa-shopping-cart fa-2x" alt="Shopping Cart"></i></a>
-          </div>
-      </header>
+                    <a href="#"><i id="cart" class="fas fa-shopping-cart fa-2x" alt="shopping cart"></i></a>
+                </div>
+            </header>
       <div class="container">
           <h1>Authentic Grace</h1>
       </div>
@@ -40,12 +40,22 @@
              <h2>$55</h2>
              <p>Color: Green</p>
              <select>
+                 <option value="" disabled selected>Quantity</option>
                  <option value=1>1</option>
                  <option value=2>2</option>
                  <option value=3>3</option>
                  <option value=4>4</option>
                  <option value=5>5</option>
              </select>
+             <select>
+                <option value="" disabled selected>Choose a size</option>
+                <option value="XS">XSmall</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+                <option value="XL">XLarge</option>
+                <option value="XXL">XXLarge</option>
+            </select>
              <button><a href="#">Add to Cart</a></button>
              <p><a href="images/SizeChart.JPG" 
                 target="popup" 
